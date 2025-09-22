@@ -22,7 +22,14 @@ public class StudentController {
     @GetMapping("/")
     public String home() 
     {
-        return "Docker Full Stack Deployment Demo";
+        return "Docker Backend is running";
+    }
+
+
+    @GetMapping("/docker")
+    public String docker()
+    {
+        return "Docker Full Stack Deployment Demo with Git Actions" ;
     }
     
 
